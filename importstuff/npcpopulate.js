@@ -89,6 +89,9 @@ fs.createReadStream("./importstuff/wiki_monster_data.csv")
 			// 	console.log(a, "did it work");
 			// });
 			monster.stats[bonus] = parseInt(row[bonus] || 0)
+			if (bonus === "hitpoints") {
+				monster.stats["maxhp"] = monster.stats[bonus]
+			}
 		});
 
 		monster.attributes = Array.from(attribSet)

@@ -602,7 +602,7 @@ Vyrewatch,2,Level 105,Vyrewatch,[[File:Vyrewatch.png|250px]],"3709,3713,3717,372
 Vyrewatch,3,Level 110,Vyrewatch,[[File:Vyrewatch.png|250px]],"3710,3714,3718,3722,3726,3730,3749,3753,3757,3761",110,1,vampyre3,90,110,96,85,110,110,0,0,0,0,0,0,0,0,0,0,0
 Vyrewatch,4,Level 120,Vyrewatch,[[File:Vyrewatch.png|250px]],"3711,3715,3719,3723,3727,3731,3750,3754,3758,3762",120,1,vampyre3,105,120,106,85,120,120,0,0,0,0,0,0,0,0,0,0,0
 Vyrewatch,5,Level 125,Vyrewatch,[[File:Vyrewatch.png|250px]],"3712,3716,3720,3724,3728,3732,3751,3755,3759,3763",125,1,vampyre3,110,120,116,85,120,120,0,0,0,0,0,0,0,0,0,0,0
-General Khazard,,,General Khazard,[[File:General Khazard.png|120px]],"1213,12025,12026,12027,12054,12055,12056,12057,12058,12059 <!--IDs 12025,12026,12027,12054,12055,12056,12057,12058,12059 should probably be split off into another |version of the infobox, although I don't know where they're used-->",142,1,,170,75,78,80,1,1,0,0,0,0,0,0,0,0,0,0,0
+General Khazard,,,General Khazard,[[File:General Khazard.png|120px]],"1213,12025,12026,12027,12054,12055,12056,12057,12058,12059 <!--IDs 12025,12026,12027,12054,12055,12056,12057,12058,12059 should probably be split off into another |version of the infobox, although I don't know where they're used-->",142,2,,170,75,78,80,1,1,0,0,0,0,0,0,0,0,0,0,0
 Goat,1,Tan,Goat,[[File:Goat (tan).png|200px]],"1795,1796",23,1,,21,20,20,20,1,1,10,29,0,0,0,0,10,10,0,0,10
 Goat,2,Brown,Goat,[[File:Goat (brown).png|200px]],"1792,1793",23,1,,21,20,20,20,1,1,10,29,0,0,0,0,10,10,0,0,10
 Billy Goat,1,Brown,Billy Goat,[[File:Billy Goat (brown).png|200px]],1794,33,1,,28,31,29,29,1,1,30,29,0,0,0,0,10,10,0,0,10
@@ -2722,3 +2722,4 @@ Strong Barrier,,,Null,[[File:Placeholder.png]],"11422, 11423",No,,,200,1,1,"50&t
 Overcharged Barrier,,,Null,[[File:Placeholder.png]],"11424, 11425",No,,,400,1,1,"70&thinsp;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1705557988910534719|date=23 September 2023|archiveurl=https://archive.ph/LsUKA{{^|https://archive.ph/Ue4ag}}|archivedate=24 September 2023|quote=[would you happen to know the defense of the 4 barrier tiers for gotr? and if they have any other stats i guess] Looks like 20, 40, 50, 70 to me. I didn't see other stats beyond the HP that you'd have known about.}}",1,1,0,0,0,0,0,0,0,0,0,0,0
 Ogre shaman (Swan Song),,,Ogre shaman,[[File:Ogre shaman (Swan Song).png|250x250px]],4382,113,2,,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
 Man (East Ardougne),,,Man,[[File:Man (East Ardougne).png|250x250px]],3298,2,1,,7,1,1,1,1,1,0,0,0,0,0,0,-21,-21,-21,-21,-21
+Bloodthirsty Crawler,,,Bloodthirsty Crawler,[[File:Bloodthirsty Crawler.png|140px]],12539,68,3,,,,,,,,,,,,,,,,,,

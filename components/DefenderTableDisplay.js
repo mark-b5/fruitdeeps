@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
-import { BonusRow } from './BonusRow.js';
+import npcFinder from '../lib/npcSpecificFinder.js';
 
 const attributeList = [
     "dragon",
@@ -47,9 +47,20 @@ export class DefenderTableDisplay extends Component {
 
 	changeInvocation(e){
 		e.persist()
-		let value = parseInt(e.target.value) || 0
 		let newMonster = JSON.parse(JSON.stringify(this.props.monster))
-		newMonster.invocation = value
+		console.log(newMonster)
+		if (!("basehp" in newMonster.stats)) {
+			console.log("setting base hp", newMonster.stats.hitpoints)
+			newMonster.stats.basehp = newMonster.stats.hitpoints
+		}
+
+		let invo = parseInt(e.target.value) || 0
+		newMonster.invocation = invo
+		let statScale = Math.floor(newMonster.invocation / 5) * 0.02
+		let hp = newMonster.stats.basehp
+		let scaledHp = hp + Math.floor(hp * statScale)
+		newMonster.stats.maxhp = scaledHp
+		newMonster.stats.hitpoints = scaledHp
 		this.props.setMonster(newMonster)
 	}
 

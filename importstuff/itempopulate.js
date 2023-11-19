@@ -38,6 +38,7 @@ const categoryTable = {
 	gun: "Gun",
 	polearm: "Polearm",
 	salamander: "Salamander",
+	partisan: "Partisan"
 };
 
 const bonusTable = {
