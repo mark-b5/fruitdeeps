@@ -56,7 +56,7 @@ export class AttackerRelics extends Component {
 					<h3>Relics</h3>
 					<div>
 						<Tier3relic player={this.props.player} relicName="Brawler's Resolve" setRelic={this.setT3Relic} />
-						<Tier3relic player={this.props.player} relicName="Superior Sorcerer " setRelic={this.setT3Relic} />
+						<Tier3relic player={this.props.player} relicName="Superior Sorcerer" setRelic={this.setT3Relic} />
 						<Tier3relic player={this.props.player} relicName="Archer's Embrace" setRelic={this.setT3Relic} />
 					</div>
 					{/* <div>
