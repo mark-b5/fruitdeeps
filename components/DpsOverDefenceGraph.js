@@ -137,7 +137,7 @@ export class DpsOverDefenceGraph extends Component {
                         alignItems: "center",
                     }}
                 >
-                    Dps as a Function of Defence @{" "}
+                    Dps as a Function of Defence (DWH) @{" "}
                     {this.props.state.monster.name}
                     <span style={{ display: "inline-flex" }}>
                         <label

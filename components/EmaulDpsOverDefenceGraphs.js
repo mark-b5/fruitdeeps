@@ -16,7 +16,7 @@ import {
 // import Worker from 'worker-loader!../lib/workers/Worker.js';
 const colors = ["#9eff74", "#74c7ff", "#ff8274", "#eeeeee"];
 
-export class DpsOverDefenceGraph extends Component {
+export class EmaulDpsOverDefenceGraph extends Component {
     constructor(props) {
         super(props);
         if(typeof window !== "undefined"){
@@ -137,7 +137,7 @@ export class DpsOverDefenceGraph extends Component {
                         alignItems: "center",
                     }}
                 >
-                    Dps as a Function of Defence @{" "}
+                    Dps as a Function of Defence (Elder) @{" "}
                     {this.props.state.monster.name}
                     <span style={{ display: "inline-flex" }}>
                         <label
@@ -221,7 +221,7 @@ export class DpsOverDefenceGraph extends Component {
                             </YAxis>
                             <Tooltip className="highlight-section" />
                             <Legend verticalAlign="top" />
-                            {elder}
+                            {elderLines}
                             {lines}
                         </LineChart>
                     </ResponsiveContainer>

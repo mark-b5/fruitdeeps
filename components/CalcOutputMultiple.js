@@ -3,6 +3,7 @@ import { CalcOutput } from "./CalcOutput.js";
 import { CalcOutputTtkChart } from "./CalcOutputTtkChart.js";
 import { CalcOutputOptimizationGraph } from "./CalcOutputOptimizationGraph.js";
 import { DpsOverDefenceGraph } from "./DpsOverDefenceGraph.js";
+import { EmaulDpsOverDefenceGraph } from "./EmaulDpsOverDefenceGraphs.js";
 import { Dps } from "../lib/dps/Dps.js";
 import Image from "next/image";
 
@@ -149,6 +150,10 @@ export class CalcOutputMultiple extends Component {
                             state={this.props.state}
                         />
                         <DpsOverDefenceGraph
+                            calcsList={calcsList}
+                            state={this.props.state}
+                        />
+                        <EmaulDpsOverDefenceGraph // added emaul
                             calcsList={calcsList}
                             state={this.props.state}
                         />
