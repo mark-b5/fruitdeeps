@@ -45,7 +45,7 @@ node importstuff/itempopulate.js
 ```
 
 There are still a few items I haven't reworked yet from the combat change. You can see the status of that here:
-
+https://docs.google.com/spreadsheets/d/1Cl6OtusiH1AcKLDNSot26S6tdcVS3Cn55vduyYKZkOk
 
 To update Npcs, run the following two commands
 
