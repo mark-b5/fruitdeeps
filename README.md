@@ -16,7 +16,7 @@ In a command line, run the following commands:
 Clone the repo
 
 ``` 
-git clone https://github.com/markbrandly/fruitdeeps.git
+git clone https://github.com/washer83/fruitdeeps.git
 ```
 
 Install packages
@@ -38,10 +38,14 @@ Fruitdeeps pulls item info from a maintained version of osrs-box located at http
 Npc info is scraped from the wiki using the py package mw-parser
 
 To update items, simply navigate to the `fruitdeeps/` folder and run the following command:
+(this may not work, but shouldn't be necessary assuming I push regular changes and they are pulled)
 
 ```
 node importstuff/itempopulate.js
 ```
+
+There are still a few items I haven't reworked yet from the combat change. You can see the status of that here:
+
 
 To update Npcs, run the following two commands
 
