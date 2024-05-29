@@ -9,7 +9,7 @@ import fs from "fs";
 
 // const db = require("../server/database.js");
 
-const boxUrl = "https://raw.githubusercontent.com/0xNeffarion/osrsreboxed-db/master/docs/items-json-slot/items-";
+const boxUrl = "https://raw.githubusercontent.com/washer83/osrsreboxed-db/master/docs/items-json-slot/items-";
 
 // import con from "../database/connection.js";
 const categoryTable = {
