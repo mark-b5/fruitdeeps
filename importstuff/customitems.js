@@ -25,7 +25,27 @@ const customs = [
     {"name":"Masori chaps (f)","slot":"legs","bonuses":[0,0,0,-2,27,35,30,39,46,37,0,2,0,1],"id":27241},
     {"name":"Masori mask (f)","slot":"head","bonuses":[0,0,0,-1,12,8,10,12,12,9,0,2,0,1],"id":27235},
     {"name":"Masori body (f)","slot":"body","bonuses":[0,0,0,-4,43,59,52,64,74,60,0,4,0,1],"id":27238},
+    {"name":"Ancestral hat","slot":"head","bonuses":[0,0,0,8,0,0,0,0,0,0,0,0,3,0],"id":21018}
 ]
+
+// // const db = {};
+// const bonusList = [
+//     "stabAttack",
+//     "slashAttack",
+//     "crushAttack",
+//     "magicAttack",
+//     "rangedAttack",
+//     "stabDefence",
+//     "slashDefence",
+//     "crushDefence",
+//     "magicDefence",
+//     "rangedDefence",
+//     "strength",
+//     "rangedStrength",
+//     "magicStrength",
+//     "prayer",
+// ];
+
 
 customs.forEach((item)=>{
     api.addItem(item).then(()=>{console.log("finished", item.name)})
