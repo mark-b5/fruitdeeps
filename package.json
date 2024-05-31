@@ -16,7 +16,6 @@
     "knex": "^2.2.0",
     "mysql": "^2.18.1",
     "next": "latest",
-    "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^7.2.6",
@@ -27,7 +26,7 @@
   },
   "devDependencies": {
     "eslint-config-next": "12.2.5",
-    "sass": "^1.54.5",
+    "sass": "^1.77.4",
     "worker-plugin": "^5.0.1"
   }
 }
