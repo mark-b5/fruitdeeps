@@ -50,7 +50,7 @@ export default function Index() {
                         />
                         {" "}fruitdeeps{" "}
                     </h1>
-                    <a href='https://discord.gg/XhFMcqGPrH' target="_blank" rel="noopener noreferrer" className='page-subtitle'>
+                    <a href='https://discord.gg/YexDtAkXMQ' target="_blank" rel="noopener noreferrer" className='page-subtitle'>
                         <Image
                             src="/assets/svg/discord.svg"
                             width={32} // Adjust width as needed
